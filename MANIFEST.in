@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include translation_app *.css
+recursive-include translation_app *.csv
+recursive-include translation_app *.html
+recursive-include translation_app *.ico
+recursive-include translation_app *.js
+recursive-include translation_app *.json
+recursive-include translation_app *.md
+recursive-include translation_app *.png
+recursive-include translation_app *.py
+recursive-include translation_app *.svg
+recursive-include translation_app *.txt
+recursive-exclude translation_app *.pyc
