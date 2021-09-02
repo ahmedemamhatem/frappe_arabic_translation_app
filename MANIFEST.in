@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include translation_app *.css
-recursive-include translation_app *.csv
-recursive-include translation_app *.html
-recursive-include translation_app *.ico
-recursive-include translation_app *.js
-recursive-include translation_app *.json
-recursive-include translation_app *.md
-recursive-include translation_app *.png
-recursive-include translation_app *.py
-recursive-include translation_app *.svg
-recursive-include translation_app *.txt
-recursive-exclude translation_app *.pyc
+recursive-include frappe_arabic_translation_app *.css
+recursive-include frappe_arabic_translation_app *.csv
+recursive-include frappe_arabic_translation_app *.html
+recursive-include frappe_arabic_translation_app *.ico
+recursive-include frappe_arabic_translation_app *.js
+recursive-include frappe_arabic_translation_app *.json
+recursive-include frappe_arabic_translation_app *.md
+recursive-include frappe_arabic_translation_app *.png
+recursive-include frappe_arabic_translation_app *.py
+recursive-include frappe_arabic_translation_app *.svg
+recursive-include frappe_arabic_translation_app *.txt
+recursive-exclude frappe_arabic_translation_app *.pyc

@@ -1,6 +1,6 @@
 from . import __version__ as app_version
 
-app_name = "translation_app"
+app_name = "frappe_arabic_translation_app"
 app_title = "Translation App"
 app_publisher = "Deaa"
 app_description = "This app is for translate to Arabic"
@@ -13,15 +13,15 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/translation_app/css/translation_app.css"
-# app_include_js = "/assets/translation_app/js/translation_app.js"
+# app_include_css = "/assets/frappe_arabic_translation_app/css/frappe_arabic_translation_app.css"
+# app_include_js = "/assets/frappe_arabic_translation_app/js/frappe_arabic_translation_app.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/translation_app/css/translation_app.css"
-# web_include_js = "/assets/translation_app/js/translation_app.js"
+# web_include_css = "/assets/frappe_arabic_translation_app/css/frappe_arabic_translation_app.css"
+# web_include_js = "/assets/frappe_arabic_translation_app/js/frappe_arabic_translation_app.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "translation_app/public/scss/website"
+# website_theme_scss = "frappe_arabic_translation_app/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -58,21 +58,21 @@ app_license = "MIT"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "translation_app.utils.jinja_methods",
-# 	"filters": "translation_app.utils.jinja_filters"
+# 	"methods": "frappe_arabic_translation_app.utils.jinja_methods",
+# 	"filters": "frappe_arabic_translation_app.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "translation_app.install.before_install"
-# after_install = "translation_app.install.after_install"
+# before_install = "frappe_arabic_translation_app.install.before_install"
+# after_install = "frappe_arabic_translation_app.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "translation_app.notifications.get_notification_config"
+# notification_config = "frappe_arabic_translation_app.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -111,39 +111,39 @@ app_license = "MIT"
 
 # scheduler_events = {
 # 	"all": [
-# 		"translation_app.tasks.all"
+# 		"frappe_arabic_translation_app.tasks.all"
 # 	],
 # 	"daily": [
-# 		"translation_app.tasks.daily"
+# 		"frappe_arabic_translation_app.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"translation_app.tasks.hourly"
+# 		"frappe_arabic_translation_app.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"translation_app.tasks.weekly"
+# 		"frappe_arabic_translation_app.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"translation_app.tasks.monthly"
+# 		"frappe_arabic_translation_app.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "translation_app.install.before_tests"
+# before_tests = "frappe_arabic_translation_app.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "translation_app.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "frappe_arabic_translation_app.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "translation_app.task.get_dashboard_data"
+# 	"Task": "frappe_arabic_translation_app.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -179,6 +179,6 @@ app_license = "MIT"
 # --------------------------------
 
 # auth_hooks = [
-# 	"translation_app.auth.validate"
+# 	"frappe_arabic_translation_app.auth.validate"
 # ]
 fixtures = ['Translation']

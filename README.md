@@ -8,7 +8,7 @@ You can install this fixture in your site to impact the `Translation List` DocTy
 Use the command below to install
 
 ```sh
-$ bench --site SITE-NAME install-app translation_app
+$ bench --site SITE-NAME install-app frappe_arabic_translation_app
 ```
 
 #### License
