@@ -1,29 +1,26 @@
-# README #
+## Translation App
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This app is to translate the most common words in frappe/ERPNext to Arabic
 
-### What is this repository for? ###
+## Functionality
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+By installing this app to your site you will inject new Arabic translation to the DocType `Translation List` with translation source is `ar`.
 
-### How do I get set up? ###
+## How The App Works & Installation
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+To use this app in your site by running this command
 
-### Contribution guidelines ###
+```sh
+$ bench --site SITE-NAME install-app frappe_arabic_translation_app
+```
+## Prerequisites List
 
-* Writing tests
-* Code review
-* Other guidelines
+To use this app you will need a running site to install it in it.
 
-### Who do I talk to? ###
+## Initialization Notes
 
-* Repo owner or admin
-* Other community or team contact
+You don't need to do anything after installing the application.
+
+#### License
+
+MIT
