@@ -1,9 +1,9 @@
 from . import __version__ as app_version
 
 app_name = "frappe_arabic_translation_app"
-app_title = "Translation App"
+app_title = "Frappe Arabic Translation App"
 app_publisher = "Deaa"
-app_description = "This app is for translate to Arabic"
+app_description = "Application to translate frappe to arabic"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "dmahmoudm@creativeadvtech.com"
